@@ -1,0 +1,59 @@
+/* this file contains the css for elements on the active, hover or fucus state */
+
+.header_primary_ul li:hover {
+    color: white;
+}
+
+.header_primary_ul li:hover::before,
+.header_primary_ul li.active::before {
+    /* this code makes the yellow-like line appear under the li on hover effect */
+    width: calc(100% - 16px);
+}
+
+.hero .explore:hover {
+    /* this code gives a white border to the explore button in the hero an hover effect */
+    border-color: #fff;
+}
+
+.product_card:hover .product_item img {
+    /* this code makes the image on the product section moves upward by 25px on hover effect */
+    top: -25px;
+}
+
+.product_card:hover::before {
+    width: 90%;
+    height: 70%;
+}
+
+.product_card:hover a span {
+    /* this code makes the cross in the product card appear on hover effect */
+    visibility: visible;
+    position: absolute;
+    opacity: 1;
+    bottom: -1px;
+}
+
+.post:hover .post_image img {
+    opacity: 0.6;
+}
+
+.footer_nav li:hover,
+.footer_bottom ul li:hover {
+    color: rgba(47,47,47,0.5);
+    transition: all 0.3s ease 0s;
+}
+
+/* this two rule set change the color and background of the social media icons on hiver effect */
+
+.social_media li:hover  {    
+    background-color: rgb(59, 93, 80);
+}
+
+.social_media li:hover i::before {
+    color: white !important;
+}
+
+.view_post:hover {
+    /* this code remouves the line on the view post on hover effect */
+    text-decoration: none;
+}

@@ -1,0 +1,591 @@
+
+/*
+===============================================================================
+ screen width for screens greater than 1200px
+===============================================================================
+*/
+
+@media only screen and (min-width: 1200px) {
+    
+    .container {
+        width: 1130px;
+    }
+
+}
+
+/*
+===============================================================================
+ screen width for screens less than 1200px
+===============================================================================
+*/
+
+@media only screen and (max-width: 1200px) {
+
+    .container {
+        width: 960px;
+    }
+
+    /* styling the hero */
+
+    .hero_intro {
+        width: 380px;
+        height: auto;
+    }
+
+    .hero_image img {
+        width: 595.5px;
+        right: -20px;
+    }
+
+    /* styling the  products section*/
+
+    .product_main {
+        width: 240px;
+        height: auto;
+    }
+
+    .product_item {
+        width: 100%;
+        height: auto;
+    }
+
+    /* styling the why-us section */
+
+    .why_us_description {
+        width: 480px;
+        height: auto;
+    }
+
+    .qualities {
+        width: 100%;
+        height: auto;
+    }
+
+    .our_qualities {
+        width: 240px;
+        height: auto;
+    }
+
+    .why_us .container {
+        width: 960px;
+    }
+
+    .why_us_image {
+        width: 376px;
+        height: 431px;
+    }
+
+    /* styling the help section */
+
+    .help_image_container {
+        width: 560px;
+        height: 527.63px;
+    }
+
+    .help_description {
+        height: max-content;
+    }
+
+    #himg_1 {
+        width: 320px;
+    }
+
+    #himg_2 {
+        width: 165px;
+    }
+
+    #himg_3 {
+        width: 280px;
+    }
+
+    /* styling the popular product section  */
+
+    .popular_image {
+        height: auto;
+    }
+
+    .popular_image::before {
+        width: 80px;
+        height: 80px;
+        top: 55px;
+    } 
+
+    /* styling the blog section */
+
+}
+
+/*
+===============================================================================
+ screen width for screens greater than 992px
+===============================================================================
+*/
+
+@media only screen and (max-width: 992px) {
+
+    .container {
+        flex-wrap: wrap;
+        width: 724px;
+        margin: 0 auto;
+        padding: 0 12px;
+    }
+
+    .section_title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    /* styling the header */
+
+    .banner {
+        font-size: 37px;
+        line-height: 44px;
+    }
+
+    .header_primary_ul li {
+        margin: 0;
+    }
+
+    /* styling the hero */
+
+    .hero {
+        height: 880px;
+    }
+
+    .hero_intro {
+        width: 100%;
+    }
+
+    .hero_image {
+        left: 48px;
+        bottom: -50px;
+    }
+
+    .hero_image img {
+        position: absolute;
+        width: 780px;
+        height: 559.95px;
+        left: 0px;
+    }
+
+    /* styling the product section */
+
+    .products {
+        height: auto;
+    }
+
+    .product_main {
+        width: 33.33%;
+        padding: 0 12px;
+    }
+
+    .product_intro {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 48px;
+    }
+
+    /* styling the why_us section */
+
+    .why_us .container {
+        width: 724px;
+    }
+
+    .why_us_description {
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+    .our_qualities {
+        width: 350px;
+        height: 164.79px;
+    }
+
+    .why_us_image {
+        width: 596px;
+        height: auto;
+    }
+
+    /* styling the help section */
+
+    .help .section_title {
+        margin-top: 24px;
+    }
+
+    .help_image_container {
+        height: 666px;
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+    #himg_1 {
+        width: 464px;
+    }
+
+    #himg_2 {
+        width: 216px;
+    }
+
+    #himg_3 {
+        width: 360px;
+    }
+
+    .help_description {
+        width: 100%;
+        padding: 0;
+    }
+
+    .help_ul {
+        margin: 24px 0;
+    }
+
+    .help_li {
+        width: 330px;
+        margin-bottom: 12px;
+    }
+
+    /* styling the popular product section */
+
+    .popular {
+        width: 350px;
+        margin-bottom: 24px;
+    }
+
+    /* styling the testimonial section */
+
+    .testimonial_block {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    /* styling the blog section */ 
+
+
+    .post {
+        width: 233px;
+        height: auto;
+    }
+
+    .post_image {
+        height: 149px;
+    }
+
+    /* styling the footer */
+
+    footer {
+        padding-top: 170px;
+        padding-bottom: 130px;
+    }
+
+    .subscribe {
+        height: 140px;
+    }
+
+    .sofa {
+        width: 380px;
+        height: 330px;
+        right: 130px;
+    }
+
+    .footer_mid {
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 48px;
+    }
+
+    .footer_description p:last-of-type {
+        margin-bottom: 34px;
+    }
+
+    .footer_nav {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .footer_nav ul:first-of-type {
+        padding-left: 0;
+    }
+    
+    .footer_description {
+        width: 100%;
+    }
+
+    .footer_bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .copy {
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+/*
+===============================================================================
+ screen width for screens greater than 767px
+===============================================================================
+*/
+
+@media only screen and (max-width: 767px) {
+
+    .container {
+        width: 540px;
+    }
+
+    /* styling the header */
+
+    header {
+        height: 74px;
+        overflow: hidden;
+    }
+
+    .burger {
+        display: inline-block;
+    }
+
+    header nav {
+        width: 540px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .header_ul_container {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .header_primary_ul {
+        width: 100%;
+        display: block;
+    }
+
+    .header_primary_ul li {
+        display: block;
+    }
+
+    .header_secondary_ul {
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    /* styling the hero */
+
+    .hero {
+        padding-top: 50px;
+    }
+
+    .hero_image {
+        top: 400px;
+    }
+
+    /* styling the product section */
+
+    .product_main {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    /* styling the why=us section */
+
+    .why_us .container {
+        width: 540px;
+    }
+
+    .our_qualities {
+        width: 258px;
+        margin-bottom: 30px;
+    }
+
+    .why_us_image {
+        width: 500px;
+    }
+
+    /* styling the help section */
+
+    .help_image_container {
+        height: 492px;
+    }
+
+    #himg_1 {
+        width: 342px;
+    }
+
+    #himg_2 {
+        width: 152px;
+    }
+
+    #himg_3 {
+        width: 267px;
+    }
+
+    .help_li {
+        width: 238px;
+    }
+
+    /* styling the popular product section */
+
+    .popular {
+        width: 100%;
+    }
+
+    .popular_description {
+        width: 386px;
+    }
+
+    /* styling the testimonial section */
+
+    .testimonial_slider {
+        height: auto;
+    }
+
+    /* styling the blog section */
+
+    .blog {
+        height: auto;
+        padding-bottom: 200px;
+    }
+
+    .blog_intro {
+        flex-direction: column;
+    }
+
+    .blog_content {
+        flex-wrap: wrap;
+        justify-content: unset;
+        gap: 5px;
+        row-gap: 30px;
+    }
+
+    /* styling the footer */
+
+    .subscribe {
+        height: auto;
+    }
+
+    .subscribe form {
+        flex-wrap: wrap;
+        height: 150px;
+    }
+
+    .footer_nav {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .footer_mid .footer_ul:first-of-type {
+        padding-left: 12px;
+    }
+
+    .footer_mid .footer_ul {
+        width: 250px;
+    }
+
+}
+
+/*
+===============================================================================
+ screen width for screens greater than 575px
+===============================================================================
+*/
+
+@media only screen and (max-width: 575px) {
+
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .section_title {
+        font-size: 26px;
+        list-style: 31px;
+    }
+
+    /* styling the header */
+
+    .header_logo {
+        line-height: 28px;
+    }
+
+    /* styling the hero */
+
+    .hero {
+        height: 800px;
+    }
+
+    .banner {
+        font-size: 31px;
+        line-height: 37px;
+    }
+
+
+    .hero_image {
+        left: 0%;
+    }
+
+    .hero_image img {
+        width: 780px;
+        aspect-ratio: 39/28;
+        right: -2.5%;
+    }
+
+    /* styling the why-us section  */
+
+    .why_us .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .our_qualities {
+        width: 50%;
+        height: auto;
+    }
+
+    /* styling the help section */
+
+    #himg_1 {
+        width: 68%;
+    } 
+
+    #himg_2 {
+        width: 28%;
+    }
+
+    #himg_3 {
+        top: 150px;
+        width: 50%;
+        height: max-content;
+    }
+
+    .help_description {
+        position: relative;
+    }
+
+    /* styling the blog section */
+
+    .post {
+        width: 100%;
+        height: auto;
+    }
+
+    .post_image {
+        width: 100%;
+        height: 80%;
+    }
+
+    .post_image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* styling the footer */
+
+    .sofa {
+        right: 0;
+    }
+
+}

@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+/*
+===============================================================================
+ General styles 
+===============================================================================
+*/
+
+a {
+  text-decoration: none;
+}
+
+.section_title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  color: #2f2f2f;
+}
+
+.section_description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6a6a6a;
+}
+
+button {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/*
+===============================================================================
+ styling the Header
+===============================================================================
+*/
+
+.header_logo {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #fff;
+}
+
+header ul {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*
+===============================================================================
+ styling the Hero section
+===============================================================================
+*/
+
+.banner {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 24px;
+}
+
+/*
+===============================================================================
+ styling the Product section 
+===============================================================================
+*/
+
+.products .section_title {
+  margin-bottom: 24px;
+}
+
+.products .section_description {
+  margin-bottom: 24px;
+}
+
+.products button {
+  background-color: #000;
+  color: #fff;
+}
+
+.product_name{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #2f2f2f;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.product_price {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 28px;
+  color: #2f2f2f;
+  text-align: center;
+}
+
+/*
+===============================================================================
+ styling the Why-us section
+===============================================================================
+*/
+
+.why_us .section_title {
+  margin-bottom: 8px;
+}
+
+.why_us .section_description {
+  margin-bottom: 16px; 
+}
+
+.quality_tile {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #2f2f2f;
+  margin-bottom: 8px;
+}
+
+.quality_description {
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 22px;
+  color: #6a6a6a;
+}
+
+/*
+===============================================================================
+ styling the Help section
+===============================================================================
+*/
+
+.help .section_title {
+  margin-bottom: 24px;
+}
+
+.help_li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6a6a6a;
+}
+
+/*
+===============================================================================
+ styling the Popular product section
+===============================================================================
+*/
+
+.popular_product_name {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  color: #2f2f2f;
+  margin-bottom: 8px;
+}
+
+.popular_product_description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6a6a6a;
+  margin-bottom: 10px;
+}
+
+.read {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #2f2f2f;
+  margin-bottom: 10px;
+}
+
+/*
+===============================================================================
+ styling the Testimonial 
+===============================================================================
+*/
+
+.testimonial .section_title {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.testimonial_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #6a6a6a;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.author_name {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  color: #2f2f2f;
+  text-align: center;
+}
+
+.author_status {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6a6a6a;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/*
+===============================================================================
+ styling the Blog section
+===============================================================================
+*/
+
+.blog_title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  color: #2f2f2f;
+}
+
+.view_post {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #2f2f2f;
+  text-decoration: underline;
+}
+
+.post_title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #2f2f2f;
+  margin-bottom: 7px;
+}
+
+.post_content p:last-of-type {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6a6a6a;
+}
+
+.post_author,
+.post_date {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #2f2f2f;
+}
+
+/*
+===============================================================================
+ styling the Footer 
+===============================================================================
+*/
+
+.footer_input input {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(33, 37, 41);
+}
+
+.subscribe p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #3b5d50;
+}
+
+.footer_logo {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #3b5d50;
+  margin-bottom: 32px;
+}
+
+.footer_description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6a6a6a;
+}
+
+.footer_description p:nth-of-type(2) {
+  margin-bottom: 24px;
+}
+
+.footer_mid li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #2f2f2f;
+}
+
+.footer_bottom {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6a6a6a;
+}
+
+/*
+===============================================================================
+ styling the "our-team" section
+===============================================================================
+*/
+
+.member_name {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  color: #2f2f2f;
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
+
+.member_status {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6a6a6a;
+  margin-bottom: 24px;
+}
+
+.member_about {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6a6a6a;
+  margin-bottom: 16px;
+}
+
+.learn_more {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #2f2f2f;
+  text-decoration: underline;
+}
+
+/* styling the contact section */
+
+.info_description {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #6a6a6a;
+  margin-bottom: 16px;
+}
+
+/* styling the labels */
+
+label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #000;
+}
