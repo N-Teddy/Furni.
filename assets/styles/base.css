@@ -60,6 +60,12 @@ header {
     overflow: hidden;
 }
 
+.min_hero {
+    height: 304px;
+    padding-top: 98px;
+    padding-bottom: 128px;
+}
+
 .hero_intro {
     width: 450px;
     height: 274px;
@@ -671,6 +677,10 @@ footer .container {
 }
 
 /* styling the shop container */
+
+.shop_products {
+    height: max-content;
+}
 
 .shop_container {
     justify-content: space-between;
