@@ -615,3 +615,16 @@ footer .container {
     border-radius: 10px;
     flex-shrink: 0;
 }
+
+/*
+===============================================================================
+ styling the cart section
+===============================================================================
+*/
+
+.cart {
+    height: 1263px;
+    padding-top: 112px;
+    padding-bottom: 192px;
+}
+
