@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart</title>
-    <link rel="stylesheet" href="./assets/styles/reset.css">
-    <link rel="stylesheet" href="./assets/styles/base.css">
-    <link rel="stylesheet" href="./assets/styles/component.css">
-    <link rel="stylesheet" href="./assets/styles/fonts.css">
-    <link rel="stylesheet" href="./assets/styles/responsiveness.css">
-    <link rel="stylesheet" href="./assets/styles/active.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/base.css" />
+    <link rel="stylesheet" href="./assets/styles/component.css" />
+    <link rel="stylesheet" href="./assets/styles/fonts.css" />
+    <link rel="stylesheet" href="./assets/styles/responsiveness.css" />
+    <link rel="stylesheet" href="./assets/styles/active.css" />
+    <link rel="shortcut icon" href="./assets/images/favicon.png ">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 </head>
+
 <body>
     <!-- start of header -->
     <header>
@@ -19,26 +22,32 @@
             <nav>
                 <div class="header_logo"><a href="#">Furni.</a></div>
                 <div class="burger">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="35" fill="rgba(255, 255,255, 0.5)" class="bi bi-list" viewBox="0 -2 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="35" fill="rgba(255, 255,255, 0.5)"
+                        class="bi bi-list" viewBox="0 -2 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                    </svg>
                 </div>
                 <div class="header_ul_container">
                     <ul class="header_ul header_primary_ul">
                         <li class="header_li"><a href="./index.html">Home</a></li>
-                        <li class="header_li"><a href="#">Shop</a></li>
+                        <li class="header_li"><a href="./shop.html">Shop</a></li>
                         <li class="header_li"><a href="./About_us.html">About us</a></li>
                         <li class="header_li"><a href="./services.html">Services</a></li>
                         <li class="header_li"><a href="./blog.html">Blog</a></li>
                         <li class="header_li"><a href="./contact.html">Contact us</a></li>
                     </ul>
                     <ul class="header_ul header_secondary_ul">
-                        <li class="header_li"><a href="#">
-                            <img src="./assets/images/user.svg" alt="">
-                        </a></li>
-                        <li class="header_li"><a href="./cart.html">
-                            <img src="./assets/images/cart.svg" alt="">
-                        </a></li>
+                        <li class="header_li">
+                            <a href="#">
+                                <img src="./assets/images/user.svg" alt="" />
+                            </a>
+                        </li>
+                        <li class="header_li">
+                            <a href="./cart.html">
+                                <img src="./assets/images/cart.svg" alt="" />
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -49,12 +58,10 @@
     <section class="hero">
         <section class="container">
             <div class="hero_intro">
-                <p class="banner">
-                    Cart
-                </p>
+                <p class="banner">Cart</p>
                 <p class="title">
-                    Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit
-                    imperdiet dolor tempor tristique.
+                    Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                    velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
                 </p>
                 <div class="button_container">
                     <button class="shop"><a href="#">Shop Now</a></button>
@@ -62,7 +69,7 @@
                 </div>
             </div>
             <div class="hero_image">
-                <img src="./assets/images/couch.png" alt="">
+                <img src="./assets/images/couch.png" alt="" />
             </div>
         </section>
     </section>
@@ -71,32 +78,76 @@
     <section class="cart">
         <section class="container">
             <section class="cart_container">
-                <table>
+                <table class="table">
                     <thead>
                         <tr>
-                            <th class="pruduct_image"></th>
-                            <th class="product_name"></th>
-                            <th class="product_price"></th>
-                            <th class="quantity"></th>
-                            <th class="total"></th>
-                            <th class="Remouve"></th>
+                            <th class="product_image">Image</th>
+                            <th class="product_name">Product</th>
+                            <th class="product_price">Price</th>
+                            <th class="quantity">Quantity</th>
+                            <th class="total">Total</th>
+                            <th class="Remouve">Remove</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th class="pruduct_image"></th>
-                            <th class="product_name"></th>
-                            <th class="product_price"></th>
-                            <th class="quantity">
-                                <div class="plus"></div>
-                                <input type="text" name="" id="">
-                                <div class="minus"></div>
-                            </th>
-                            <th class="total"></th>
-                            <th class="Remouve"></th>
+                            <td class="product_image">
+                                <img src="./assets/images/product-1.png" alt="" />
+                            </td>
+                            <td class="product_name">Product 1</td>
+                            <td class="product_price">$49.00</td>
+                            <td class="quantity">
+                                <div class="plus">+</div>
+                                <input type="text" name="" id="" />
+                                <div class="minus">-</div>
+                            </td>
+                            <td class="total">$49.00</td>
+                            <td class="Remouve">
+                                <a href="">x</a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
+                <div class="row">
+                    <div class="coupon">
+                        <div class="button_container">
+                            <button class="cart_btn">
+                                <a href="">Update Cart</a>
+                            </button>
+                            <button class="cart_btn">
+                                <a href="./">Continue Shopping</a>
+                            </button>
+                        </div>
+                        <div>
+                            <p class="section_title">Coupon</p>
+                            <p class="section_description">
+                                Enter your coupon code if you have one
+                            </p>
+                        </div>
+                        <div>
+                            <input type="text" class="form_control" />
+                            <button class="cart_btn">Apply Coupon</button>
+                        </div>
+                    </div>
+                    <div class="cart_total">
+                        <div class="cart_total_heading">
+                            <p>CART TOTALS</p>
+                        </div>
+                        <div>
+                            <div class="cart_check">
+                                <p>Subtotal</p>
+                                <p>$230.00</p>
+                            </div>
+                            <div class="cart_check">
+                                <p>Total</p>
+                                <p>$230.00</p>
+                            </div>
+                            <button class="cart_btn">
+                                <a href="">proceed To Checkout</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </section>
         </section>
     </section>
@@ -107,43 +158,51 @@
             <section class="subscribe">
                 <p>
                     <span>
-                        <img src="./assets/images/envelope-outline.svg" alt="">
+                        <img src="./assets/images/envelope-outline.svg" alt="" />
                     </span>
-                    Subscribe to Newsletter</p>
+                    Subscribe to Newsletter
+                </p>
                 <form action="">
                     <div class="footer_input">
                         <label for="name">
-                            <input type="text" id="name" placeholder="Enter your name">
+                            <input type="text" id="name" placeholder="Enter your name" />
                         </label>
                     </div>
                     <div class="footer_input">
                         <label for="email">
-                            <input type="email" id="email" placeholder="Enter your email">
+                            <input type="email" id="email" placeholder="Enter your email" />
                         </label>
                     </div>
                     <button class="send">
-                        <span class="paper_plane">
-                            
-                        </span>
+                        <span class="paper_plane"> </span>
                     </button>
                 </form>
             </section>
             <div class="sofa">
-                <img src="./assets/images/sofa.png" alt="">
+                <img src="./assets/images/sofa.png" alt="" />
             </div>
             <section class="footer_mid">
                 <section class="footer_description">
                     <p class="footer_logo">Furni.</p>
                     <p>
-                        Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada.
-                        Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque
+                        Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
+                        quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+                        vulputate velit imperdiet dolor tempor tristique. Pellentesque
                         habitant
                     </p>
                     <ul class="social_media">
-                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                        <li>
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                        </li>
                     </ul>
                 </section>
                 <nav class="footer_nav">
@@ -173,7 +232,8 @@
             </section>
             <section class="footer_bottom">
                 <p class="copy">
-                    Copyright ©2024. All Rights Reserved. — Designed with love by Untree.co
+                    Copyright ©2024. All Rights Reserved. — Designed with love by
+                    Untree.co
                 </p>
                 <ul class="footer_ul">
                     <li class="footer_li">Terms & Conditions</li>
@@ -183,4 +243,5 @@
         </section>
     </footer>
 </body>
+
 </html>

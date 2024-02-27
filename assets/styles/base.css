@@ -623,8 +623,62 @@ footer .container {
 */
 
 .cart {
-    height: 1263px;
     padding-top: 112px;
     padding-bottom: 192px;
 }
 
+.cart_container {
+    width: 100%;
+}
+
+.cart .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coupon {
+    width: 60%;
+    padding: 0 12px;
+}
+
+.coupon div:last-of-type {
+    margin-top: 20px;
+}
+
+.button_container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 47px;
+}
+
+.cart_total {
+    width: 40%;
+    padding: 0 12px;
+}
+
+.cart_total_heading {
+    border-bottom: 0.6px solid #dee2e6;
+}
+
+.cart_check {
+    display: flex;
+    justify-content: space-between ;
+    width: 60%;
+    margin: 10px 0;
+    margin-left: 30px;
+}
+
+/* styling the shop container */
+
+.shop_container {
+    justify-content: space-between;
+    width: 95% !important;
+    flex-wrap: wrap;
+}
+
+.shop_container .product_card {
+    margin-bottom: 48px;
+    padding: 0 12px;
+}
