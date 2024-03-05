@@ -1,4 +1,3 @@
-
 /*
 ===============================================================================
  screen width for screens greater than 1200px
@@ -6,7 +5,7 @@
 */
 
 @media only screen and (min-width: 1200px) {
-    
+
     .container {
         width: 1130px;
     }
@@ -39,9 +38,9 @@
 
     /* styling the  products section*/
 
-    .product_main {
+    .product_card {
         width: 240px;
-        height: auto;
+        height: 350px;
     }
 
     .product_item {
@@ -108,15 +107,20 @@
         width: 80px;
         height: 80px;
         top: 55px;
-    } 
+    }
 
-    /* styling the blog section */
+    /* styling the container section on the checkout page */
+
+    .billing .container {
+        width: 100%;
+        margin: 0 auto;
+    }
 
 }
 
 /*
 ===============================================================================
- screen width for screens greater than 992px
+ screen width for screens less than 992px
 ===============================================================================
 */
 
@@ -141,7 +145,7 @@
         line-height: 44px;
     }
 
-    .header_primary_ul li {
+    .header_primary_ul a {
         margin: 0;
     }
 
@@ -149,6 +153,10 @@
 
     .hero {
         height: 880px;
+    }
+
+    .min_hero {
+        height: 300px;
     }
 
     .hero_intro {
@@ -171,15 +179,26 @@
 
     .products {
         height: auto;
+        padding-bottom: 70px;
     }
 
-    .product_main {
+    /* styling the product section in the shop page */
+
+    .shop_products .product_card {
+        height: max-content;
+        padding-bottom: 30px;
+    }
+
+    .product_card {
         width: 33.33%;
+        height: 325px;
         padding: 0 12px;
+
     }
 
     .product_intro {
         width: 100%;
+        height: auto;
         padding: 0;
         margin-bottom: 48px;
     }
@@ -188,6 +207,12 @@
 
     .why_us .container {
         width: 724px;
+    }
+
+    /* styling the why-us section on the why-us page */
+
+    .why_page {
+        padding-bottom: 50px;
     }
 
     .why_us_description {
@@ -203,6 +228,7 @@
     .why_us_image {
         width: 596px;
         height: auto;
+        margin: 0 auto;
     }
 
     /* styling the help section */
@@ -258,7 +284,7 @@
         padding: 0;
     }
 
-    /* styling the blog section */ 
+    /* styling the blog section */
 
 
     .post {
@@ -274,7 +300,7 @@
 
     footer {
         padding-top: 170px;
-        padding-bottom: 130px;
+        padding-bottom: 70px;
     }
 
     .subscribe {
@@ -306,7 +332,7 @@
     .footer_nav ul:first-of-type {
         padding-left: 0;
     }
-    
+
     .footer_description {
         width: 100%;
     }
@@ -321,11 +347,35 @@
         width: 100%;
     }
 
+    /* styling the billing section in the checkout page */
+
+    .billing .container {
+        justify-content: center;
+    }
+
+    .billing_details {
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    .billing .details {
+        margin-right: 0;
+    }
+
+    .billing .details .row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .billing_left {
+        width: 70%;
+    }
+
 }
 
 /*
 ===============================================================================
- screen width for screens greater than 767px
+ screen width for screens less than 767px
 ===============================================================================
 */
 
@@ -363,7 +413,7 @@
         display: block;
     }
 
-    .header_primary_ul li {
+    .header_primary_ul a {
         display: block;
     }
 
@@ -384,10 +434,15 @@
 
     /* styling the product section */
 
-    .product_main {
+    .product_card {
         width: 100%;
+        height: 600px;
         margin-bottom: 70px;
     }
+
+    /* .shop_products .product_card {
+        height: 400px;
+    } */
 
     /* styling the why=us section */
 
@@ -438,8 +493,19 @@
 
     /* styling the testimonial section */
 
+    .testimonial {
+        height: auto;
+        padding-bottom: 48px;
+    }
+
     .testimonial_slider {
         height: auto;
+    }
+
+    /* styling the testimonial section found in the About-us page */
+
+    .about_testimonial {
+        padding-bottom: 150px;
     }
 
     /* styling the blog section */
@@ -485,11 +551,34 @@
         width: 250px;
     }
 
+    /* styling the contact section on the contact page */
+
+    .contact_container {
+        height: max-content;
+        margin-bottom: 200px;
+    }
+
+    .contact_info {
+        flex-wrap: wrap;
+        height: max-content;
+    }
+
+    .info {
+        width: 49%;
+    }
+
+    /* styling the billing section in the checkout page */
+
+    .billing_details,
+    .billing_left {
+        width: 90%;
+    }
+
 }
 
 /*
 ===============================================================================
- screen width for screens greater than 575px
+ screen width for screens less than 575px
 ===============================================================================
 */
 
@@ -515,6 +604,10 @@
 
     .hero {
         height: 800px;
+    }
+
+    .min_hero {
+        height: 250px;
     }
 
     .banner {
@@ -549,7 +642,7 @@
 
     #himg_1 {
         width: 68%;
-    } 
+    }
 
     #himg_2 {
         width: 28%;
@@ -584,8 +677,237 @@
 
     /* styling the footer */
 
+    footer {
+        padding-bottom: 50px;
+    }
+
     .sofa {
         right: 0;
+    }
+
+    /* styling the contact section on the contact page */
+
+    .info {
+        width: 100%;
+    }
+
+    .contact .row {
+        flex-wrap: wrap;
+        height: max-content;
+    }
+
+    .contact .row .form_group {
+        width: 100%;
+    }
+
+    .contact form {
+        height: max-content;
+    }
+    
+    /* styling the billing section in the checkout page */
+
+    .billing {
+        margin: 0 20px;
+    }
+
+    .billing_details,
+    .billing_left {
+        width: 100%;
+    }
+
+
+}
+
+
+/*
+===============================================================================
+ screen width for screens less than 425px
+===============================================================================
+*/
+
+@media only screen and (max-width: 425px) {
+
+    /* styling the product section */
+
+    .products {
+        padding-bottom: 0px;
+    }
+
+    .product_card {
+        height: 500px;
+    }
+
+    /* styling the why-us section */
+
+    .why_us {
+        padding: 60px 0;
+    }
+
+    .our_qualities {
+        width: 100%;
+    }
+
+    /* styling the help section */
+
+    #himg_3 {
+        top: 125px;
+        width: 250px;
+    }
+
+    .help_ul {
+        margin-left: 30px;
+    }
+
+    /* styling the popular_product section */
+
+    .popular_products {
+        margin-bottom: 50px;
+    }
+
+    .popular_image::before {
+        top: 45px;
+        bottom: 0;
+    }
+
+    /* styling the billing section in the checkout page */
+
+    .order,
+    .code,
+    .details {
+        padding: 15px 15px;
+    }
+
+}
+
+/*
+===============================================================================
+ screen width for screens less than 355px
+===============================================================================
+*/
+
+@media only screen and (max-width: 380px) {
+
+    /* styling the product section */
+
+    .product_card {
+        height: 450px;
+        margin-bottom: 30px;
+    }
+
+    /* styling the why-us section */
+
+    .why_us {
+        padding: 40px 0;
+    }
+
+    .qualities {
+        margin-bottom: 0;
+    }
+
+    /* styling the help section */
+
+    .help_image_container {
+        height: 320px;
+        margin-bottom: 0;
+    }
+
+}
+
+/*
+===============================================================================
+ screen width for screens less than 343px
+===============================================================================
+*/
+
+@media only screen and (max-width: 343px) {
+
+    /* styling the hero */
+
+    .button_container {
+        flex-direction: column;
+    }
+
+    /* styling the help section */
+
+    #himg_3 {
+        top: 100px;
+        width: 200px;
+    }
+
+    /* styling the popular_product section */
+
+    .popular_image::before {
+        top: 30px;
+        width: 70px;
+        height: 70px;
+        border-radius: 15px;
+    }
+
+    /* styling the post section */
+
+    .post {
+        height: max-content;
+    }
+
+    /* styling the footer */
+
+    .sofa {
+        width: 300px;
+    }
+
+    .subscribe form {
+        height: auto;
+    }
+
+}
+
+/*
+===============================================================================
+ screen width for screens less than 343px
+===============================================================================
+*/
+
+@media only screen and (max-width: 320px) {
+
+    /* styling the product section */
+
+    .products {
+        padding-top: 70px;
+    }
+
+    .product_card {
+        height: 390px;
+    }
+
+    /* styling the help section */
+
+    .help {
+        padding-top: 70px;
+    }
+
+    #himg_1 {
+        width: 170px;
+    }
+
+    #himg_2 {
+        width: 100px;
+    }
+
+    #himg_3 {
+        top: 110px;
+        width: 170px;
+    }
+
+    /* styling the testimonial section */
+
+    .testimonial {
+        padding: 0px;
+    }
+
+    /* styling the testimonial section found in the About-us page */
+
+    .about_testimonial {
+        padding-bottom: 150px;
     }
 
 }

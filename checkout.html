@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/styles/reset.css">
-    <link rel="stylesheet" href="./assets/styles/base.css">
-    <link rel="stylesheet" href="./assets/styles/component.css">
-    <link rel="stylesheet" href="./assets/styles/fonts.css">
-    <link rel="stylesheet" href="./assets/styles/responsiveness.css">
-    <link rel="stylesheet" href="./assets/styles/active.css">
-    <link rel="shortcut icon" href="./assets/images/favicon.png ">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/base.css" />
+    <link rel="stylesheet" href="./assets/styles/component.css" />
+    <link rel="stylesheet" href="./assets/styles/fonts.css" />
+    <link rel="stylesheet" href="./assets/styles/responsiveness.css" />
+    <link rel="stylesheet" href="./assets/styles/active.css" />
+    <link rel="shortcut icon" href="./assets/images/favicon.png " />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 </head>
 
 <body>
@@ -38,12 +38,16 @@
                         <li class="header_li"><a href="./contact.html">Contact us</a></li>
                     </ul>
                     <ul class="header_ul header_secondary_ul">
-                        <li class="header_li"><a href="#">
-                                <img src="./assets/images/user.svg" alt="">
-                            </a></li>
-                        <li class="header_li"><a href="./cart.html">
-                                <img src="./assets/images/cart.svg" alt="">
-                            </a></li>
+                        <li class="header_li">
+                            <a href="#">
+                                <img src="./assets/images/user.svg" alt="" />
+                            </a>
+                        </li>
+                        <li class="header_li">
+                            <a href="./cart.html">
+                                <img src="./assets/images/cart.svg" alt="" />
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -54,76 +58,137 @@
     <section class="hero min_hero">
         <section class="container">
             <!-- <div class="hero_intro"> -->
-            <p class="banner">
-                Checkout
-            </p>
+            <p class="banner">Checkout</p>
             <!-- </div> -->
         </section>
     </section>
     <!-- end of hero -->
     <!-- start of billing section -->
     <section class="billing">
+        <section class="customer">
+            <p>Returning custumer? <a href="">Click here</a> to login</p>
+        </section>
         <section class="container">
             <section class="billing_details">
-                <p>Billing Details</p>
+                <p class="section_title">Billing Details</p>
                 <section class="details">
                     <div class="form_group">
                         <label for="">Country*</label>
-                        <input type="text" id="" class="form_control" placeholder="" aria-describedby="helpId">
+                        <input type="text" id="" class="form_control" placeholder="" aria-describedby="helpId" />
                         <!-- <small class="text-muted">Help text</small> -->
                     </div>
                     <div class="row">
                         <div class="form_group">
                             <label for="f_name">First Name*</label>
-                            <input type="text" id="f_name" class="form_control" placeholder="">
+                            <input type="text" id="f_name" class="form_control" placeholder="" />
                             <!-- <small id="helpId" class="text-muted">Help text</small> -->
                         </div>
                         <div class="form_group">
                             <label for="l_name">Last Name*</label>
-                            <input type="text" id="l_name" class="form_control" placeholder="">
+                            <input type="text" id="l_name" class="form_control" placeholder="" />
                             <!-- <small id="helpId" class="text-muted">Help text</small> -->
                         </div>
                     </div>
                     <div class="form_group">
                         <label for="company">Company Name*</label>
-                        <input type="text" id="company" class="form_control">
+                        <input type="text" id="company" class="form_control" />
                         <!-- <small id="helpId" class="text-muted">Help text</small> -->
                     </div>
                     <div class="form_group">
-                        <label for="address"></label>
-                        <input type="text" id="address" class="form_control" placeholder="Street address">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" class="form_control" placeholder="Street address" />
                         <!-- <small id="helpId" class="text-muted">Help text</small> -->
                     </div>
-                    <div class="form_group">
+                    <div class="form_group appartment">
                         <label for=""></label>
-                        <input type="text" id="" class="form_control" placeholder="Apartment, suite, unit etc. (optionaml)">
+                        <input type="text" id="" class="form_control"
+                            placeholder="Apartment, suite, unit etc. (optionaml)" />
                         <!-- <small id="helpId" class="text-muted">Help text</small> -->
                     </div>
                     <div class="row">
                         <div class="form_group">
                             <label for="state">State / Country*</label>
-                            <input type="text" id="state" class="form_control">
+                            <input type="text" id="state" class="form_control" />
                             <!-- <small id="helpId" class="text-muted">Help text</small> -->
                         </div>
                         <div class="form_group">
                             <label for="postal">Posta / zip</label>
-                            <input type="text" id="postal" class="form_control">
+                            <input type="text" id="postal" class="form_control" />
                             <!-- <small id="helpId" class="text-muted">Help text</small> -->
                         </div>
                     </div>
                     <div class="row">
                         <div class="form_group">
                             <label for="email">Email Address*</label>
-                            <input type="text" id="email" class="form_control">
+                            <input type="text" id="email" class="form_control" />
                             <!-- <small id="helpId" class="text-muted">Help text</small> -->
                         </div>
                         <div class="form_group">
                             <label for="phone">Phone*</label>
-                            <input type="text" id="phone" class="form_control" placeholder="Phone Number">
+                            <input type="text" id="phone" class="form_control" placeholder="Phone Number" />
                             <!-- <small id="helpId" class="text-muted">Help text</small> -->
                         </div>
                     </div>
-                    <section class="billing_btn"></section> 
+                    <section class="billing_btn"></section>
+                </section>
+            </section>
+            <section class="billing_left">
+                <section class="coupon_code">
+                    <p class="section_title">Coupon Code</p>
+                    <section class="code">
+                        <p>Enter your coupon code if you have one</p>
+                        <div class="form_group">
+                            <div class="coupon_container">
+                                <input type="text" id="code" class="form_control" placeholder="Enter your code">
+                                <button>Apply</button>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section class="your_order">
+                    <p class="section_title">
+                        Your Order
+                    </p>
+                    <section class="order">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Top Up T-Shirt x 1</td>
+                                    <td>$250.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Cart Subtotal</td>
+                                    <td>$350.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Order Total</td>
+                                    <td>$350.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section class="payment">
+                            <div class="payment_option">
+                                <a href="">
+                                    Direct Bank Transfer
+                                </a>
+                            </div>
+                            <div class="payment_option">
+                                <a href="">Checque Payment</a>
+                            </div>
+                            <div class="payment_option">
+                                <a href="">Paypal</a>
+                            </div>
+                        </section>
+                        <button>
+                            Place Order
+                        </button>
+                    </section>
                 </section>
             </section>
         </section>
@@ -135,44 +200,51 @@
             <section class="subscribe">
                 <p>
                     <span>
-                        <img src="./assets/images/envelope-outline.svg" alt="">
+                        <img src="./assets/images/envelope-outline.svg" alt="" />
                     </span>
                     Subscribe to Newsletter
                 </p>
                 <form action="">
                     <div class="footer_input">
                         <label for="name">
-                            <input type="text" id="name" placeholder="Enter your name">
+                            <input type="text" id="name" placeholder="Enter your name" />
                         </label>
                     </div>
                     <div class="footer_input">
                         <label for="email">
-                            <input type="email" id="email" placeholder="Enter your email">
+                            <input type="email" id="email2" placeholder="Enter your email" />
                         </label>
                     </div>
                     <button class="send">
-                        <span class="paper_plane">
-
-                        </span>
+                        <span class="paper_plane"> </span>
                     </button>
                 </form>
             </section>
             <div class="sofa">
-                <img src="./assets/images/sofa.png" alt="">
+                <img src="./assets/images/sofa.png" alt="" />
             </div>
             <section class="footer_mid">
                 <section class="footer_description">
                     <p class="footer_logo">Furni.</p>
                     <p>
-                        Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada.
-                        Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque
+                        Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
+                        quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+                        vulputate velit imperdiet dolor tempor tristique. Pellentesque
                         habitant
                     </p>
                     <ul class="social_media">
-                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                        <li>
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                        </li>
                     </ul>
                 </section>
                 <nav class="footer_nav">
@@ -202,7 +274,8 @@
             </section>
             <section class="footer_bottom">
                 <p class="copy">
-                    Copyright ©2024. All Rights Reserved. — Designed with love by Untree.co
+                    Copyright ©2024. All Rights Reserved. — Designed with love by
+                    Untree.co
                 </p>
                 <ul class="footer_ul">
                     <li class="footer_li">Terms & Conditions</li>

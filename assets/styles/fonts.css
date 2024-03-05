@@ -364,8 +364,7 @@ header ul {
 /* styling the contact section */
 
 .info_description {
-  display: flex;
-  align-items: center;
+  word-wrap: break-word;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;

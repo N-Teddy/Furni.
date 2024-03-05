@@ -1,14 +1,16 @@
 /* this file contains the css for elements on the active, hover or fucus state */
 
-.header_primary_ul li:hover {
+.header_primary_ul a:hover {
     color: white;
 }
 
-.header_primary_ul li:hover::before,
-.header_primary_ul li.active::before {
+
+.header_primary_ul a:hover::before,
+.header_primary_ul a:focus::before {
     /* this code makes the yellow-like line appear under the li on hover effect */
     width: calc(100% - 16px);
 }
+
 
 .hero .explore:hover {
     /* this code gives a white border to the explore button in the hero an hover effect */
