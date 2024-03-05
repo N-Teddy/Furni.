@@ -715,6 +715,13 @@
         width: 100%;
     }
 
+    /* styling the thanks page */
+
+    .thanks h2 {
+        font-size: 43px;
+        font-weight: 300;
+        line-height: 52px;
+    }
 
 }
 

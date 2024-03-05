@@ -818,3 +818,35 @@ footer .container {
     }
 
 }
+
+/*
+===============================================================================
+ styling the thanks section in the thanks page 
+===============================================================================
+*/
+
+/* styling the thanks section */
+
+.thanks {
+    padding: 112px 0;
+}
+
+.thanks .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thanks .container div {
+    position: relative;
+    margin-bottom: 48px;
+}
+
+.thanks .container div::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(59, 93, 80, 0.2);
+}

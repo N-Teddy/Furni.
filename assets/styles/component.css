@@ -207,7 +207,20 @@ footer .send::before {
 .cart_btn {
     color: #fff;
     background-color: #000;
+}
 
+/* styling the btn in the checkout page */
+
+.billing button {
+    color: white;
+    background-color: #000;
+}
+
+/* styling the button in the thanks page */
+
+.thanks button {
+    color: white;
+    background-color: #000;
 }
 
 /*
